@@ -23,3 +23,18 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+In this assignment, I learned how to build an ETL pipeline using Python and pandas to process parking violation data, focusing on aggregating and filtering based on specific conditions such as locations with total amounts over $1000. I also integrated this ETL process into a Streamlit app for an interactive user experience. The most challenging part was ensuring that function names matched the expected imports in the test files, which led to an ImportError. This experience highlighted the importance of maintaining consistency between code and tests, as well as the need to structure the code in a way that facilitates testing. One of my main struggles was understanding how to execute Streamlit scripts correctly, particularly the role of the if __name__ == "__main__": block, which I initially misunderstood in terms of how it interacts with Streamlit’s execution model. I also encountered issues with the way the functions were written and called, leading to confusion around variable scopes and data flows, especially when integrating the pandas data transformations into the Streamlit app. Additionally, I found it challenging to balance the data processing and user interface aspects of the project, making sure the app both performs well and remains user-friendly. Moving forward, I plan to deepen my understanding of Streamlit’s execution flow, practice refactoring code for better modularity, and improve my ability to structure ETL pipelines to make them easier to test and debug.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
